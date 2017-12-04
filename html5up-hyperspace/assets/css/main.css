@@ -2657,6 +2657,9 @@
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
+	.content{
+		min-height: 210px;
+	}
 
 		ul li {
 			padding-left: 0.5em;
