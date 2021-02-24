@@ -15,5 +15,8 @@ steps:
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
